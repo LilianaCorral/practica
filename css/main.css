@@ -1,0 +1,34 @@
+main .main-logo img{
+    width: 330px;
+    height:220px;
+}
+
+a{
+    text-decoration: none;/*para eliminar los subrayados*/
+    curso:pointer;/*para el cursor*/
+}
+
+header{
+    widht: 100%;
+    height: 60px;
+}
+
+header nav{
+    display:flex;/*elemento flexible para alterar sus dimansiones*/
+    justify-content:flex-end;
+}
+
+/*altura, anchura, display*/
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style:none;
+    /*ajuste de texto en el centro*/
+    align-items:center;
+}
+
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: rgb(211, 23, 180);
+}
